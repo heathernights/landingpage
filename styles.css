@@ -11,6 +11,10 @@ header {
 
 #logo {
     max-height: 160px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav {
@@ -41,13 +45,19 @@ header nav ul li nav#logo {
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 8px;
 }
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
+    gap: 95px;
     justify-content: center;
-    flex-direction: row;
-    align-self: ;
+}    
+
+#hero {
+    justify-content: center;
+
 }
 
 .container {
@@ -65,10 +75,18 @@ h2 {
     border-radius: 25%;
     max-width: 100px;
     max-height: 100px;
+    margin-bottom: 0;
+  
+    
+    
 }
 
 .text {
-    max-width: 200px;
+    max-width: 100px;
+    font-size: 12px;
+    padding-top: 0;
+    padding-left: 22px;
+    padding-bottom: 80px;
 }
 
 img {
@@ -84,4 +102,10 @@ img {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+
