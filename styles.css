@@ -11,23 +11,23 @@ header {
 
 #logo {
     max-height: 160px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-left: 390px;
+    display: inline-block;
+    padding-right: 315px;
     
+  
 }
 
 header nav {
-    text-align: center;
+    text-align: right;
+    padding-top: 0;
 }
 
 header nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: block;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -41,10 +41,22 @@ header nav ul li {
 }
 
 header nav ul li nav#logo {
-    display: block;
+    display: flex;
     max-width: 100px;
     max-height: 100px;
+    justify-content: center;
     
+}
+
+h1 {
+    padding: 0;
+   
+}
+p {
+    padding: 0;
+    margin: 10px;
+    margin-top: 0;
+
 }
 
 button {
@@ -65,6 +77,8 @@ button {
 
 }
 
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -81,10 +95,8 @@ h2 {
     max-width: 100px;
     max-height: 100px;
     margin-bottom: 0;
-    padding: 0;
-  
-    
-    
+    padding: 2px;
+
 }
 
 .text {
@@ -118,7 +130,9 @@ img {
 footer {
     text-align: center;
     margin-left: 350px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    position: fixed;
+
     
 }
 
@@ -129,6 +143,7 @@ footer {
     background-color: #3882F6;
     color: white;
     max-width: 1000px; 
+    min-width: 1000px;
     border-radius: 10px;
     justify-content: center;
     flex-wrap: wrap;
