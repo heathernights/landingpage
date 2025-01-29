@@ -15,6 +15,8 @@ header {
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 390px;
+    
 }
 
 header nav {
@@ -31,8 +33,10 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    padding: 20px;
     margin: 0;
+    padding: 20px;
+
+
     
 }
 
@@ -40,6 +44,7 @@ header nav ul li nav#logo {
     display: block;
     max-width: 100px;
     max-height: 100px;
+    
 }
 
 button {
@@ -76,16 +81,17 @@ h2 {
     max-width: 100px;
     max-height: 100px;
     margin-bottom: 0;
+    padding: 0;
   
     
     
 }
 
 .text {
-    max-width: 100px;
+    max-width: 90px;
     font-size: 12px;
     padding-top: 0;
-    padding-left: 22px;
+    padding-left: 10px;
     padding-bottom: 80px;
 }
 
@@ -108,4 +114,31 @@ img {
     justify-content: center;
 
 }
+
+footer {
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 40px;
+    
+}
+
+.footer {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: #3882F6;
+    color: white;
+    max-width: 1000px; 
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button {
+    border-color: white;
+    font-size: 14px;
+}
+
+
 
